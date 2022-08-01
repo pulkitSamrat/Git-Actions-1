@@ -1,4 +1,4 @@
-name: Trigger Deployments in JIRA
+name: Deployments in JIRA
 on: [push]
 jobs:
   cypress-run:
