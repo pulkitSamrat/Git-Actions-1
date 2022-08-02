@@ -1,4 +1,4 @@
-name: Deployments in JIRA
+name: Automation Deployments in JIRA
 on: [push]
 jobs:
   cypress-run:
