@@ -4,7 +4,7 @@ name: Build and Deploy to Sandbox
 
 on:
   push:
-    branches: [ HP-1 ]
+    branches: [ HP-2 ]
   workflow_dispatch:
     
 jobs:
