@@ -70,6 +70,4 @@ jobs:
       env:
         USERNAME: Pulkit_Apisero_02082022
         PASSWORD: Cloudhub1234$
-      run: |
-        mvn clean install \
-        mvn deploy -DmuleDeploy
+      run: mvn deploy -DmuleDeploy
