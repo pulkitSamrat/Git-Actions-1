@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ HP-2, HP-3 ]
+    branches: [ HP-4 ]
 
 env:
   ECR_REGISTRY: https://244740641779.dkr.ecr.us-east-1.amazonaws.com/
@@ -34,7 +34,7 @@ jobs:
       id: build-image
       env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: testingdockerimage
+          ECR_REPOSITORY: feature2361
           IMAGE_TAG: ${{ github.sha }}
           AWS_REGION: us-east-1
       run: |
