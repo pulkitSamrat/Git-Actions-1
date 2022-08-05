@@ -37,7 +37,7 @@
 						<workerType>Micro</workerType>
 						<environment>Sandbox</environment>
 						<muleVersion>4.4.0</muleVersion>
-						<applicationName>metronet-start</applicationName>
+						<applicationName>metronet-startup</applicationName>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
