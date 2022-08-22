@@ -1,12 +1,12 @@
 on:
   push:
-    branches: [AC-6]
+    branches: [feat/HP-6]
 name: Get Github Release Data
 jobs:
   latest-version:
     name: Get Latest Release
     runs-on: ubuntu-latest #Os
-    environment: dev   #For Environment
+    environment: qa   #For Environment
     steps:
       - uses: actions/checkout@master
       - name: Example of consumption of the output
