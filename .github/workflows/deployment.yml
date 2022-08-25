@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [feat/HP-6]
+    branches: [HP-6]
 name: Get Github Release Data
 jobs:
   latest-version:
