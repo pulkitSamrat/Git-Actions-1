@@ -1,4 +1,4 @@
-name: Deployment to QA Environment
+name: Deployment to QA Environment HP-6
 on:
   pull_request:
     branches: [main]
