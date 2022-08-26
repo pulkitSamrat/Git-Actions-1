@@ -1,7 +1,9 @@
+name: Deployment to QA Environment
 on:
-  push:
-    branches: [HP-6]
-name: Get Github Release Data
+  pull_request:
+    branches: [main]
+    types:
+      - closed
 jobs:
   latest-version:
     name: Get Latest Release
